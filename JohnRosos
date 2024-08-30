@@ -1,0 +1,17 @@
+line01 = ('  ____  _____  _   _  _  _    _    _  ____  __    ____  ____  ____  ____  ')
+line02 = (' (_  _)(  _  )( )_( )( \( )  ( \/\/ )(_  _)(  )  ( ___)(  _ \( ___)(  _ \ ')
+line03 = ('.-_)(   )(_)(  ) _ (  )  (    )    (  _)(_  )(__  )__)  )   / )__)  )(_) )')
+line04 = ('\____) (_____)(_) (_)(_)\_)  (__/\__)(____)(____)(__)  (_)\_)(____)(____/ ')
+
+print (line01)
+print (line02)
+print (line03)
+print (line04)
+
+import pyfiglet
+
+text = pyfiglet.figlet_format(text= "John Wilfred" , font= "Acrobatic")
+
+print(text)
+
+print = pyfiglet.print_figlet(text= "John Wilfred" , colors= 'Green' , font= "Isometric1")
